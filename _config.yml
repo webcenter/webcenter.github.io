@@ -14,18 +14,15 @@ email: hmjsite@gmail.com
 facebook_username: monteirojunior
 twitter_username: henryjr
 github_username: webcenter
-
-# Feel free to add more lines here
+address: sao+luis
+  - line:
+  - line:
+  # Feel free to add more lines here
 telephone: +55 98 98150 9791
-copyright: @henryjr
+copyright: henryjr
 
 # API settings
 google_api_key: AIzaSyD2fk3qhvh-Ay6C7p33kV83P4RsoPkhtmo
 
 # Build settings
 markdown: kramdown
-
-# Maps
-address1: Sao+Luis
-address2: Maranhao
-address3: Brasil
