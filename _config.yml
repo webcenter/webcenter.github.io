@@ -24,8 +24,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Sao Luis
-  - line: Maranhao, Brasil
+  - line: São Luís
+  - line: Maranhão, Brasil
 
 # Build settings
 markdown: kramdown
