@@ -17,10 +17,10 @@ social:
     url: https://facebook.com/monteirojunior
   - title: twitter
     url: https://twitter.com/henryjr1
-  - title: envelope
-    url: mailto:hmjsite@gmail.com
   - title: mobile
     url: tel:+5598981509791
+  - title: envelope
+    url: mailto:hmjsite@gmail.com
 
 # Postal address (add as many lines as necessary)
 address:
