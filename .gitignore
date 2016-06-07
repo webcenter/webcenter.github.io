@@ -1,5 +1,7 @@
 # Created by https://www.gitignore.io/api/windows,phpstorm,git,linux,emacs,jekyll
 
+_site
+
 ### Windows ###
 # Windows image file caches
 Thumbs.db
