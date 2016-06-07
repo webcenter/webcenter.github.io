@@ -304,6 +304,7 @@ header .intro-text .intro-heading {
     .btn-xl {
     padding: 20px 40px;
     font-size: 18px;
+        text-shadow: 2px 2px 2px #424242;
     }
 
     header .intro-text {
