@@ -198,8 +198,12 @@ hr.small {
     padding: 50px 0;
 }
 
+.portfolio .col-md-6{
+    padding: 0px;
+}
+
 .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .img-portfolio {
