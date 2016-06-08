@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
+                        <h3>Onde?</h3>
                         <p>
                             {% for adress in site.address %}
                                 {{ adress.line }} <br>
@@ -15,9 +15,9 @@
                         
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Powered By:</h3>
-                        <p><a href="http://jekyllrb.com/">Jekyll</a></p>
-                        <p><a href="https://pages.github.com/">GitHub Pages</a></p>
+                        <h3>Contatos:</h3>
+                        <p><a href="tel:+5598{{ site.tel }}">{{ site.tel }}</a></p>
+                        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
                     </div>
                 </div>
             </div>
