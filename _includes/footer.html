@@ -1,41 +1,41 @@
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Onde?</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Contatos:</h3>
-                        <p><a href="tel:+5598{{ site.tel }}">{{ site.tel }}</a></p>
-                        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-                    </div>
+<!-- Footer -->
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Onde?</h3>
+                    <p>
+                        {% for adress in site.address %}
+                        {{ adress.line }} <br>
+                        {% endfor %}
+                    </p>
                 </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright {{ site.title }} &copy; 20{{ site.time | date: '%y' }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+                <div class="footer-col col-md-4">
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top right page-scroll visible-xs visble-sm visible-lg">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
-        </a>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Contatos:</h3>
+                    <p><a href="tel:+5598{{ site.tel }}">{{ site.tel }}</a></p>
+                    <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright {{ site.title }} &copy; 20{{ site.time | date: '%y' }}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top right page-scroll visible-xs visble-sm visible-lg">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
